@@ -4,6 +4,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.0'
 
 # modal
+# example from http://flaviusim.com/blog/2012/05/28/create-new-records-with-bootstrap-modal-and-unobtrusive-javascript-in-rails/
+# other sources: https://getbootstrap.com/docs/4.0/components/modal/
+# https://haml2erb.org/
+
 gem 'client_side_validations', '~> 12.1'
 
 # bootstrap, modal
